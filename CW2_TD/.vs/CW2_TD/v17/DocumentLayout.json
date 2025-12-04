@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\luke blaylock\\documents\\github\\cw2_group_project\\cw2_td\\assets\\customeditor\\tilebrush3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\customeditor\\tilebrush3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TileBrush3D.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\CustomEditor\\TileBrush3D.cs",
+              "RelativeDocumentMoniker": "Assets\\CustomEditor\\TileBrush3D.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\CustomEditor\\TileBrush3D.cs",
+              "RelativeToolTip": "Assets\\CustomEditor\\TileBrush3D.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwF4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:30:46.311Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
