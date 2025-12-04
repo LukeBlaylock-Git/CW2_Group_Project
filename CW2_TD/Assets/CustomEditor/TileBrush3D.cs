@@ -91,8 +91,8 @@ public class TileBrush3D : EditorWindow
 
     private Vector3 SnapToGrid(Vector3 pos)     //alligning the tiles to the centre of the grid.
     {
-        float x = Mathf.Floor(pos.x / CellSize) * CellSize;
-        float z = Mathf.Floor(pos.z / CellSize) * CellSize;
+        float x = Mathf.Floor(pos.x / CellSize) * CellSize + CellSize * 0.5f;
+        float z = Mathf.Floor(pos.z / CellSize) * CellSize + CellSize * 0.5f;
         float y = pos.y + YOffset;
         return new Vector3(x, y, z);
     }
