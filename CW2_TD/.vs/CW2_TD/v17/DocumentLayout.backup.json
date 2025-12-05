@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\luke blaylock\\documents\\github\\cw2_group_project\\cw2_td\\assets\\customeditor\\tilebrush3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\luke blaylock\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\enemysplinemover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemysplinemover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\customeditor\\tilebrush3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\customeditor\\tilebrush3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\luke blaylock\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\testsplinefollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\testsplinefollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestSplineFollower.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\TestSplineFollower.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TestSplineFollower.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\TestSplineFollower.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TestSplineFollower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:15:30.972Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemySplineMover.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemySplineMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySplineMover.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemySplineMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySplineMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:53:08.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:57:02.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyData.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemyData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyData.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemyData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T03:47:46.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemyMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMovement.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemyMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T03:17:03.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TileBrush3D.cs",
               "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\CustomEditor\\TileBrush3D.cs",
               "RelativeDocumentMoniker": "Assets\\CustomEditor\\TileBrush3D.cs",
               "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\CustomEditor\\TileBrush3D.cs",
               "RelativeToolTip": "Assets\\CustomEditor\\TileBrush3D.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwFgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwGEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T03:30:46.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T03:30:46.311Z"
             }
           ]
         }
