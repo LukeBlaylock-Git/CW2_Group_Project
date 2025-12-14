@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 372
     height: 933
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 480
     height: 578
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 657
+    y: 602
     width: 1547
     height: 329
   m_SerializedDataModeController:
@@ -410,21 +410,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 107}
     m_SelectedIDs: 86180100
     m_LastClickedID: 71814
-    m_ExpandedIDs: 00000000bcf90000d0fb0000d4fb00004415010012180100901901001c1b0100cc20010000ca9a3b
+    m_ExpandedIDs: 0000000038be00003abe00003cbe00003ebe000040be000042be000044be0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: fbx
-      m_OriginalName: fbx
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 69734
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -439,7 +439,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000038be00003abe00003cbe00003ebe000040be000042be000044be0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -518,8 +518,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1548
-    y: 79
+    x: 1549
+    y: 24
     width: 371
     height: 907
   m_SerializedDataModeController:
@@ -568,7 +568,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 479
     height: 552
   m_SerializedDataModeController:
@@ -633,8 +633,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 480
-    y: 79
+    x: 481
+    y: 24
     width: 1066
     height: 552
   m_SerializedDataModeController:
@@ -1269,11 +1269,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.24378973, y: -0.6468996, z: 0.23031646, w: 0.68489575}
     speed: 2
-    m_Value: {x: 0.24481183, y: -0.64654034, z: 0.23128194, w: 0.68451554}
+    m_Value: {x: -0.24378972, y: 0.6468996, z: -0.23031645, w: -0.68489575}
   m_Size:
     m_Target: 5.1327896
     speed: 2
-    m_Value: 5.3746486
+    m_Value: 5.1327896
   m_Ortho:
     m_Target: 0
     speed: 2
