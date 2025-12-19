@@ -24752,6 +24752,7 @@ GameObject:
   - component: {fileID: 1396752906}
   - component: {fileID: 1396752905}
   - component: {fileID: 1396752908}
+  - component: {fileID: 1396752909}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -24827,7 +24828,7 @@ Transform:
   m_GameObject: {fileID: 1396752904}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0153102875, y: 0.5700002, z: 0.29999992}
+  m_LocalPosition: {x: -0.0153102875, y: 0.5700002, z: 0.29999924}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24877,6 +24878,20 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1396752909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396752904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e4f791d7244f046b31939e8dbdfd57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraLock
+  Sens: 100
+  Player: {fileID: 1713711294}
 --- !u!1001 &1409786881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30130,13 +30145,13 @@ Transform:
   m_GameObject: {fileID: 1713711293}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.6, y: 2.08, z: -18.27}
+  m_LocalPosition: {x: -4.6013107, y: 2.08, z: 2.5725594}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1396752907}
   - {fileID: 680070229}
-  m_Father: {fileID: 0}
+  - {fileID: 1396752907}
+  m_Father: {fileID: 2130388159}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &1713711295
 CapsuleCollider:
@@ -39018,7 +39033,8 @@ Transform:
   m_LocalPosition: {x: -11.99869, y: 0, z: -20.84256}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1713711294}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2130971508 stripped
@@ -39398,5 +39414,4 @@ SceneRoots:
   - {fileID: 1336252661}
   - {fileID: 171838841}
   - {fileID: 2130388159}
-  - {fileID: 1713711294}
   - {fileID: 841554861}
