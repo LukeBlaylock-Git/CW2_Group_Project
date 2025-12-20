@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class CameraLock : MonoBehaviour
 {
@@ -26,3 +25,5 @@ public class CameraLock : MonoBehaviour
         Player.Rotate(Vector3.up * MouseX);
     }
 }
+
+// Helped by Copilot to provide the concept as to how to make this code
