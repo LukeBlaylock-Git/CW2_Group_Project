@@ -2,28 +2,42 @@ using UnityEngine;
 
 public class CameraLock : MonoBehaviour
 {
-    public float Sens = 100f; //The sensitivity of the mouse
-    public Transform Player; //Used to move the players rotation
+    [Header("Camera Settings")]
+    float XRotation;
+    float YRotation;
+    public float SensX;
+    public float SensY; //The sensitivity of the mouse
+    float Height = 1.5f; //This sets the height of the camera forcefully, I highly recommend NOT changing this.
+    [Header("Object References")]
+    public Transform Orientation;
+    public Transform Player;
 
-    float XRotation = 0f;
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked; //Locks the mouse
+        Cursor.visible = false;
     }
 
     void Update()
     {
-        float MouseX = Input.GetAxis("Mouse X") * Sens * Time.deltaTime;
-        float MouseY = Input.GetAxis("Mouse Y") * Sens * Time.deltaTime;
+        float MouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * SensX;
+        float MouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * SensY;
 
-        XRotation -= MouseY;
-        XRotation = Mathf.Clamp(XRotation, -90f, 90f); //Prevent them from looking fully to prevent flipping
+        XRotation -= MouseY; //X Axis Camera
+        XRotation = Mathf.Clamp(XRotation, -90f, 90f); //Prevents the Character from looking too far up or down respectively.
 
-        transform.localRotation = Quaternion.Euler(XRotation, 0f, 0f);
+        YRotation += MouseX; //Y Axis Camera
 
-        Player.Rotate(Vector3.up * MouseX);
+        //Rotate camera and orientation
+        transform.rotation = Quaternion.Euler(XRotation, YRotation, 0);
+        Orientation.rotation = Quaternion.Euler(0, YRotation, 0);
     }
+    void LateUpdate()
+    {
+        transform.position = Player.position + Vector3.up * Height; //This is going to force our camera to be centered on our player, no matter what.
+    }
+    //Reference https://youtu.be/f473C43s8nE?si=nciixbfiIJW71S5R&t
 }
 
 // Helped by Copilot to provide the concept as to how to make this code
