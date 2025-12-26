@@ -7,18 +7,26 @@ public class EnemySpawner : MonoBehaviour
     public EnemyData EnemyType;            // enemy stats
     public SplineContainer SplinePath;     // spline IN THE SCENE
 
+    public int EnemiesToSpawn = 5;   // how many this "wave" has
+    int EnemiesSpawned = 0;          // how many we've spawned so far
+
     public float SpawnInterval = 2f;
     private float Timer = 0f;
 
     void Update()
     {
         Timer += Time.deltaTime;
-
-        if (Timer >= SpawnInterval)
+        if (EnemiesSpawned < EnemiesToSpawn)
         {
-            Timer = 0f;
-            SpawnEnemy();
+            if (Timer >= SpawnInterval)
+            {
+                Timer = 0f;
+                SpawnEnemy();
+                EnemiesSpawned++;
+                Debug.Log($"Enemy Spawned {EnemiesSpawned}/{EnemiesToSpawn}");
+            }
         }
+
     }
 
     void SpawnEnemy()

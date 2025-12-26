@@ -69,6 +69,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a48dd3b11cc3cb140a45bdd11b8f3ff2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 834041838668325337}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a48dd3b11cc3cb140a45bdd11b8f3ff2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4422897998082807815}
   m_SourcePrefab: {fileID: 100100000, guid: a48dd3b11cc3cb140a45bdd11b8f3ff2, type: 3}
 --- !u!1 &5513685352478954073 stripped
 GameObject:
@@ -127,3 +130,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4422897998082807815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5513685352478954073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3af258f7c6a0b4b8bc0d2b0d1d9df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyLifeCycle
