@@ -1,8 +1,12 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using System.Diagnostics.CodeAnalysis;
 public class TowerAttack : MonoBehaviour
 {
+    //Other Script being used
+    public TowerShooter shooter;
+
     //Target vairables
     public float TowerRange = 5f;
     public Transform TowerRotate; // The Range, Rotating bit and the speed it turns
@@ -12,7 +16,7 @@ public class TowerAttack : MonoBehaviour
     public float FireRate = 2f; // How fast it can fire and how long it has to wait between shots
     private float Cooldown = 1f;
 
-    private Transform CurrentlyTargeted; //Who is getting shot
+    public Transform CurrentlyTargeted; //Who is getting shot
 
     private void FixedUpdate() // I am using fixed update so it isnt being called every frame for memory and lag reasons
     {
@@ -62,7 +66,13 @@ public class TowerAttack : MonoBehaviour
         if (Cooldown <= 0f) //Is it ready to fire
         {
             //TESTING PURPSOSES ONLY
-            Debug.Log("Would Fire at" + CurrentlyTargeted.name);
+            //Debug.Log("Would Fire at" + CurrentlyTargeted.name);
+
+            if (CurrentlyTargeted != null && shooter != null)
+            {
+
+                shooter.Firing(CurrentlyTargeted);
+            }
 
             Cooldown = 1f / FireRate;//How long till next shot is allowed
         }

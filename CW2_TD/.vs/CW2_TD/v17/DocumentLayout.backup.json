@@ -1,9 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\",
+  "WorkspaceRootPath": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\luke blaylock\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\cameralock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\owenj\\onedrive - edge hill university\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\owenj\\onedrive - edge hill university\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\owenj\\onedrive - edge hill university\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\towerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemysplinemover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemysplinemover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\cameramover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\cameralock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameralock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +43,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CameraLock.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\CameraLock.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraLock.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\CameraLock.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraLock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Title": "EnemyData.cs",
+              "DocumentMoniker": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemyData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyData.cs",
+              "ToolTip": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemyData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T13:44:34.745Z",
+              "WhenOpened": "2025-12-28T16:58:06.744Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile.cs",
+              "ToolTip": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Projectile.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T16:21:47.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TowerAttack.cs",
+              "DocumentMoniker": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\TowerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TowerAttack.cs",
+              "ToolTip": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\TowerAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TowerAttack.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wCsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T16:19:16.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemySplineMover.cs",
+              "DocumentMoniker": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemySplineMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySplineMover.cs",
+              "ToolTip": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemySplineMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySplineMover.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T14:44:41.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T14:36:43.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CameraMover.cs",
+              "DocumentMoniker": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\CameraMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMover.cs",
+              "ToolTip": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\CameraMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T02:32:22.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CameraLock.cs",
+              "DocumentMoniker": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\CameraLock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraLock.cs",
+              "ToolTip": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\CameraLock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraLock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAACVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:44:34.745Z"
             }
           ]
         }

@@ -13,7 +13,8 @@ public class EnemySplineMovement : MonoBehaviour
         InitVisual();
     }
 
-    void Update()
+    
+    void FixedUpdate()
     {
         if (Path == null || Path.Splines.Count == 0) return; //If there is no path asigned or the spline has no curves, come to a stop
 

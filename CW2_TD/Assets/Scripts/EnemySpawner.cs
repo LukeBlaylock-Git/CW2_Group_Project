@@ -32,5 +32,7 @@ public class EnemySpawner : MonoBehaviour
         // Assign data + spline
         move.Type = EnemyType;
         move.Path = SplinePath;
+
+        Debug.Log("Enemy Spawned");
     }
 }
