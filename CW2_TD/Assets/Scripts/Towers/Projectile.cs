@@ -51,10 +51,10 @@ public class Projectile : MonoBehaviour
         if (other.transform == CurrentlyTargeted)
         {
             // Get their health and what to do if they are not already dead
-            EnemyHealthHandler HP = other.GetComponent<EnemyHealthHandler>();
+            Enemy HP = other.GetComponent<Enemy>();
             if (HP != null)
             {
-                HP.DamageTaken(ProjectileDamage);
+                HP.TakeDamage(ProjectileDamage);
             }
 
             Destroy(gameObject) ;
