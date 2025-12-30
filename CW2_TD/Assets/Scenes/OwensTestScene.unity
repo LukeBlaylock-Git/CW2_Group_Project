@@ -12422,6 +12422,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a2ad8a1daacc20645a51a55cbd30dd38, type: 3}
   m_PrefabInstance: {fileID: 1237219861}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1237439312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1237439313}
+  - component: {fileID: 1237439314}
+  m_Layer: 0
+  m_Name: WaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1237439313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237439312}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.74619, y: 0, z: -0.95407}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1237439314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237439312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05dff919e9cad3348ae729369c0b84e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaveManager
+  Waves:
+  - {fileID: 11400000, guid: 2b5e0b8b502b5db41911a4434e3c28d0, type: 2}
+  - {fileID: 11400000, guid: 9960be6ca478d2442855ab055b83e730, type: 2}
+  Spawner: {fileID: 1629611278}
+  CurrentWaveIndex: 0
 --- !u!1001 &1245764320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15703,10 +15752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dfd9411c66116f42b1037bc1c8df051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
-  EnemyPrefab: {fileID: 5513685352478954073, guid: 4a01007aafde54047950c923aab145bc, type: 3}
-  EnemyType: {fileID: 11400000, guid: cdcac9e94d58c544da2df2c9c87d3af8, type: 2}
-  SplinePath: {fileID: 841554860}
-  SpawnInterval: 2
+  Path: {fileID: 841554860}
 --- !u!1001 &1632723092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20531,3 +20577,4 @@ SceneRoots:
   - {fileID: 6673337327792693121}
   - {fileID: 841554861}
   - {fileID: 547539479}
+  - {fileID: 1237439313}

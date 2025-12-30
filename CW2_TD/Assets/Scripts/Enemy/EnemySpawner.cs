@@ -1,38 +1,21 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Splines;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject EnemyPrefab;         // enemy prefab
-    public EnemyData EnemyType;            // enemy stats
-    public SplineContainer SplinePath;     // spline IN THE SCENE
+    [Header("Path")]
+    public SplineContainer Path;
 
-    public float SpawnInterval = 2f;
-    private float Timer = 0f;
-
-    void Update()
+    public IEnumerator SpawnWave(EnemyData EnemyData, int Count, float Delay)
     {
-        Timer += Time.deltaTime;
-
-        if (Timer >= SpawnInterval)
+        for (int i = 0; i < Count; i++)
         {
-            Timer = 0f;
-            SpawnEnemy();
+            Enemy Enemy = Instantiate(EnemyData.EnemyPrefab, Vector3.zero, Quaternion.identity);
+            Enemy.Path = Path;
+            Enemy.Data = EnemyData;
+
+            yield return new WaitForSeconds(Delay);
         }
-    }
-
-    void SpawnEnemy()
-    {
-        // Spawn one enemy
-        GameObject e = Instantiate(EnemyPrefab, transform.position, Quaternion.identity);
-
-        // Get the movement component
-        EnemySplineMovement move = e.GetComponent<EnemySplineMovement>();
-
-        // Assign data + spline
-        move.Type = EnemyType;
-        move.Path = SplinePath;
-
-        Debug.Log("Enemy Spawned");
     }
 }

@@ -1,22 +1,60 @@
-using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
+using UnityEngine.Splines;
 
-public class EnemyHealthHandler : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    public EnemyData Stats ; //Call in the enemy data
-    public float CurrentHealth = 10;
+    [Header("References")]
+    public SplineContainer Path; //Public for posterity, but do not touch, automatically assigned by EnemySpawner
+    public EnemyData Data;
+
+    [Header("Runtime")]
+    public float CurrentHealth;
+    public float Progress = 0f;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        float CurrentHealth = Stats.MaxHealth; //Assign the needed data
+        CurrentHealth = Data.MaxHealth;
     }
 
-    public void DamageTaken(int amount)
+    // Update is called once per frame
+    void Update()
     {
-        CurrentHealth -= amount; // How much damage
+        MoveAlongPath();
+    }
+    public void MoveAlongPath()
+    {
+        if (Path == null || Data == null) return;
 
-        if (CurrentHealth <= 0)// Are they dead
+        Progress += Data.MoveSpeed * Time.deltaTime;
+        Progress = Mathf.Clamp01(Progress);
+
+        transform.position = Path.EvaluatePosition(Progress);
+
+        if (Progress >= 1f)
         {
-            Destroy(gameObject);//Destroy if dead
+            ReachGoal();
         }
+    }
+    public void TakeDamage(float Damage)
+    {
+        CurrentHealth -= Damage;
+
+        Debug.Log($"{name} took {Damage} damage. HP now: {CurrentHealth}");
+
+        if (CurrentHealth <= 0f)
+        {
+            Die();
+        }
+    }
+    public void Die()
+    {
+        Debug.Log($"{name} died.");
+        Destroy(gameObject); //Will soon also give the player money upon "death" dependent on what unit it was.
+    }
+
+    public void ReachGoal()
+    {
+        Destroy(gameObject); //Later must be updated to reduce lives.
     }
 }
