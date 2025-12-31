@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bfabfb91ac6f6b4086d4ddb2d442c7e, type: 3}
-  m_Name: BasicEnemy
-  m_EditorClassIdentifier: 
-  EnemyPrefab: {fileID: -2709522594665490488, guid: 515b8c51d3b231b4fad7794280fc19e9, type: 3}
-  MaxHealth: 10
+  m_Name: FastEnemy
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  EnemyPrefab: {fileID: -3708684531333434704, guid: a4f95c620dd34254484902980be7f523, type: 3}
+  MaxHealth: 4
   MoveSpeed: 0.25

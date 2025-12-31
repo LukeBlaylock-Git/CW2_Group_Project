@@ -6505,10 +6505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dfd9411c66116f42b1037bc1c8df051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
-  EnemyPrefab: {fileID: 6286345577347848219, guid: ed06b447ef0b84643b9f5d466a2f3e0d, type: 3}
-  EnemyType: {fileID: 11400000, guid: 0c6ce69eee11d924aa817d0bcbc597af, type: 2}
-  SplinePath: {fileID: 1889498973}
-  SpawnInterval: 5
+  Path: {fileID: 0}
 --- !u!1001 &273636427
 PrefabInstance:
   m_ObjectHideFlags: 0
