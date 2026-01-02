@@ -1297,6 +1297,7 @@ GameObject:
   - component: {fileID: -7901854222116627440}
   - component: {fileID: 886676223935182260}
   - component: {fileID: -2709522594665490488}
+  - component: {fileID: 2685072555423902337}
   m_Layer: 0
   m_Name: Enemy_Warrior
   m_TagString: Enemy
@@ -1403,8 +1404,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c68075c51c1a01c49941f767ae5fe9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthHandler
-  Stats: {fileID: 11400000, guid: 0c6ce69eee11d924aa817d0bcbc597af, type: 2}
+  Path: {fileID: 0}
+  Data: {fileID: 0}
+  MoneyGet: {fileID: 0}
   CurrentHealth: 10
+  Progress: 0
+  DeathReward: 0
+--- !u!114 &2685072555423902337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5346894464115317574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdebf667fcc83794a8472e0db844adbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerEconomy
+  Money: 10
+  Camera: {fileID: 0}
+  TowerPlaced: {fileID: 0}
 --- !u!1 &5836227124154372305
 GameObject:
   m_ObjectHideFlags: 0

@@ -150,8 +150,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c68075c51c1a01c49941f767ae5fe9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthHandler
-  Stats: {fileID: 11400000, guid: 0c6ce69eee11d924aa817d0bcbc597af, type: 2}
+  Path: {fileID: 0}
+  Data: {fileID: 0}
+  MoneyGet: {fileID: 0}
   CurrentHealth: 10
+  Progress: 0
+  DeathReward: 0
 --- !u!1 &712608237725106493
 GameObject:
   m_ObjectHideFlags: 0

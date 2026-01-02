@@ -1,30 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\",
+  "WorkspaceRootPath": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\owenj\\onedrive - edge hill university\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\enemy\\enemyhealthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyhealthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemy\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\owenj\\onedrive - edge hill university\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\player\\playereconomy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playereconomy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\owenj\\onedrive - edge hill university\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\enemy\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\luke blaylock\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\towers\\towerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\towers\\towerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\towers\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\luke blaylock\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\towers\\towerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\towerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Projectile.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\Projectile.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\Projectile.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\Projectile.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Towers\\Projectile.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAWwDUAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EnemyHealthHandler.cs",
+              "DocumentMoniker": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemyHealthHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHealthHandler.cs",
+              "ToolTip": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemyHealthHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHealthHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T20:52:09.081Z",
+              "WhenOpened": "2025-12-30T23:40:01.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TowerData.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\TowerData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\TowerData.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\TowerData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Towers\\TowerData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Title": "EnemyData.cs",
+              "DocumentMoniker": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemyData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyData.cs",
+              "ToolTip": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemyData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T20:39:48.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T20:34:55.286Z",
+              "WhenOpened": "2025-12-30T23:39:25.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnemyData.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemyData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyData.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemyData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "PlayerEconomy.cs",
+              "DocumentMoniker": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Player\\PlayerEconomy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerEconomy.cs",
+              "ToolTip": "C:\\Users\\owenj\\OneDrive - Edge Hill University\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Player\\PlayerEconomy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerEconomy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T20:32:08.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemySpawner.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemySpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T20:30:19.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TowerAttack.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\TowerAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\TowerAttack.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\TowerAttack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Towers\\TowerAttack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T17:20:37.903Z",
+              "WhenOpened": "2025-12-30T22:27:22.162Z",
               "EditorCaption": ""
             }
           ]

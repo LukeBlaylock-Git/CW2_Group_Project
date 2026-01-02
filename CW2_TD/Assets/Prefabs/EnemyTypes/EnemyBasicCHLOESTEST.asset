@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bfabfb91ac6f6b4086d4ddb2d442c7e, type: 3}
   m_Name: EnemyBasicCHLOESTEST
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  EnemyName: Basic Enemy
-  MaxHealth: 10
-  MoveSpeed: 1
-  TurnSpeed: 5
-  reward: 1
   EnemyPrefab: {fileID: 0}
+  MaxHealth: 10
+  MoveSpeed: 0.5
+  Reward: 2

@@ -32,6 +32,7 @@ public class Projectile : MonoBehaviour
             }
         }
         CurrentlyTargeted = ClosestEnemy; // Could be changed to add a variety of targeting options
+        
     }
 
     private void Update()
