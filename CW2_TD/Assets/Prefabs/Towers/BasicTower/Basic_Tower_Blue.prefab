@@ -166,11 +166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d47eb654c24fa945b6f1f1bd744996c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerAttack
+  Data: {fileID: 11400000, guid: 4bc4e683cbff31c4ca72f47e6062a1c0, type: 2}
   shooter: {fileID: 7391406150180798553}
-  TowerRange: 5
   TowerRotate: {fileID: 6930901736534141644}
   TowerRotateSpeed: 5
-  FireRate: 2
   CurrentlyTargeted: {fileID: 0}
 --- !u!65 &8799168842699677741
 BoxCollider:

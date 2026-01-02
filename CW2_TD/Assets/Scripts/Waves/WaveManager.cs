@@ -8,7 +8,7 @@ public class WaveManager : MonoBehaviour
     public WaveData[] Waves;
 
     [Header("Spawner References")]
-    public EnemySpawner Spawner;
+    public EnemySpawner[] Spawners;
     [SerializeField] private int CurrentWaveIndex = 0;
 
     void Start()
@@ -26,8 +26,9 @@ public class WaveManager : MonoBehaviour
 
             foreach (WaveSpawn Spawn in CurrentWave.Spawns)
             {
+                EnemySpawner ChosenSpawner = Spawners[Random.Range(0, Spawners.Length)];
                 yield return StartCoroutine(
-                    Spawner.SpawnWave(Spawn.EnemyType, Spawn.Count, Spawn.SpawnDelay));
+                    ChosenSpawner.SpawnWave(Spawn.EnemyType, Spawn.Count, Spawn.SpawnDelay));
             }
             Debug.Log($"Finished spawning Wave {CurrentWaveIndex + 1}");
 
