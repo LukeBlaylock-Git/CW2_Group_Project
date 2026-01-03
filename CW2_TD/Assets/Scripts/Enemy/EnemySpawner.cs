@@ -14,6 +14,7 @@ public class EnemySpawner : MonoBehaviour
             Enemy Enemy = Instantiate(EnemyData.EnemyPrefab, Vector3.zero, Quaternion.identity);
             Enemy.Path = Path;
             Enemy.Data = EnemyData;
+            GameManager.Instance.RegisterEnemy();
 
             yield return new WaitForSeconds(Delay);
         }

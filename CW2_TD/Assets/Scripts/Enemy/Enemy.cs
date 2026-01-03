@@ -57,12 +57,14 @@ public class Enemy : MonoBehaviour
             
         }
         Debug.Log($"{name} died.");
+        GameManager.Instance.UnRegisterEnemy();
         Destroy(gameObject); //Will soon also give the player money upon "death" dependent on what unit it was.
     }
 
     public void ReachGoal()
     {
         GameManager.Instance.LifeLost(Data.Damage); //Reduces lives
+        GameManager.Instance.UnRegisterEnemy();
         Destroy(gameObject); 
     }
 }

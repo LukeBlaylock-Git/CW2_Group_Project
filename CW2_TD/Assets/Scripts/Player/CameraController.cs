@@ -18,11 +18,6 @@ public class CameraController : MonoBehaviour
 
 
     // Update is called once per frame
-    void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-    }
     void Update()
     {
         float scroll = Input.GetAxis("Mouse ScrollWheel"); //Gets the Input_Manager... input, uses it for our scroll variable.
