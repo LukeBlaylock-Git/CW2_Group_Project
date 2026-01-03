@@ -2,10 +2,13 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    bool Paused = false;
     public static GameManager Instance;
+
     [Header("Meta Stats")]
     public int Lives = 10;
     public int Money = 200;
+    public int EnemiesAlive {  get; private set; }
 
     void Awake()
     {
@@ -21,6 +24,35 @@ public class GameManager : MonoBehaviour
         End
     }
     public GamePhase CurrentPhase = GamePhase.Build; //Starts us off on the build phase.
+
+    void Update()
+    {
+        CursorMode();
+
+        if (Input.GetKeyDown(KeyCode.Escape)) //if Escape is pressed, pause game.
+        {
+            TogglePause();
+        }
+    }
+    void CursorMode()
+    {
+        switch (CurrentPhase)
+        {
+            //Below is making sure our mouse is controllable and visible during certain phases of the game.
+            case GamePhase.Build:
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                break;
+            case GamePhase.Combat:
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                break;
+            case GamePhase.End:
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                break;
+        }
+    }
     public void LifeLost(int Amount = 1)
     {
         Lives -= Amount;
@@ -47,5 +79,22 @@ public class GameManager : MonoBehaviour
     {
         Money += Amount;
     }
+    void TogglePause() //Function for toggling game pausing with esc
+    {
+        Paused = !Paused;
+        Time.timeScale = Paused ? 0f : 1f;
+        Cursor.lockState = Paused ? CursorLockMode.None : CursorLockMode.Locked;
+        Cursor.visible = Paused;
+    }
+    public void RegisterEnemy()
+    {
+        EnemiesAlive++;
+    }
+    public void UnRegisterEnemy()
+    {
+        EnemiesAlive--;
 
+        if (EnemiesAlive < 0)
+            EnemiesAlive = 0;
+    }
 }
