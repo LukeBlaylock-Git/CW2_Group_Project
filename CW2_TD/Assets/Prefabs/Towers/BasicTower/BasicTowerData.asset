@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0069d9378c766624c8270fdf4c1b75ca, type: 3}
   m_Name: BasicTowerData
   m_EditorClassIdentifier: Assembly-CSharp::TowerData
+  TowerPrefab: {fileID: 5120322359843644832, guid: 504801ca01d4f28489b0d059431580de, type: 3}
+  Cost: 125
   Range: 5
   FireRate: 2
   ProjectileSpeed: 10

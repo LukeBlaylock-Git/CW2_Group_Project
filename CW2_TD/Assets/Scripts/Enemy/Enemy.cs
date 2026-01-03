@@ -49,12 +49,20 @@ public class Enemy : MonoBehaviour
     }
     public void Die()
     {
+        if ( (Data != null && GameManager.Instance != null))
+        {
+            GameManager.Instance.AddMoney(Data.Reward);
+        }
+        {
+            
+        }
         Debug.Log($"{name} died.");
         Destroy(gameObject); //Will soon also give the player money upon "death" dependent on what unit it was.
     }
 
     public void ReachGoal()
     {
-        Destroy(gameObject); //Later must be updated to reduce lives.
+        GameManager.Instance.LifeLost(Data.Damage); //Reduces lives
+        Destroy(gameObject); 
     }
 }

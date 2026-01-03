@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\luke blaylock\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\towers\\towerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\towerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|c:\\users\\luke blaylock\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\ui\\waves_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\waves_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\waves\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\waves\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\ui\\lives_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\lives_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemy\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\towers\\towershooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,34 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\towers\\towerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\towerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemy\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\waves\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\waves\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C65873-8C26-C803-834F-FFF7AA54837F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\luke blaylock\\documents\\github\\cw2_group_project\\cw2_td\\assets\\scripts\\camera\\playercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\camera\\playercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\camera\\cameramover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\camera\\cameramover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\assets\\scripts\\camera\\cameralock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\camera\\cameralock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,47 +58,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerCamera.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Camera\\PlayerCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\PlayerCamera.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Camera\\PlayerCamera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Camera\\PlayerCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:45:22.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CameraMover.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Camera\\CameraMover.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraMover.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Camera\\CameraMover.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraMover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T14:23:45.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CameraLock.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Camera\\CameraLock.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraLock.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Camera\\CameraLock.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraLock.cs",
+              "DocumentIndex": 2,
+              "Title": "Waves_UI.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\UI\\Waves_UI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Waves_UI.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\UI\\Waves_UI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Waves_UI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T14:23:25.577Z"
+              "WhenOpened": "2026-01-02T22:25:32.855Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Lives_UI.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\UI\\Lives_UI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Lives_UI.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\UI\\Lives_UI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Lives_UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T19:19:38.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WaveManager.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Waves\\WaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Waves\\WaveManager.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Waves\\WaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Waves\\WaveManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T21:10:53.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\GameManager\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\GameManager\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T13:55:44.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T16:06:19.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "TowerShooter.cs",
               "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\TowerShooter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\TowerShooter.cs",
@@ -110,56 +138,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TowerData.cs",
               "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\TowerData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\TowerData.cs",
               "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\TowerData.cs",
               "RelativeToolTip": "Assets\\Scripts\\Towers\\TowerData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T11:13:14.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T23:00:42.457Z",
+              "WhenOpened": "2026-01-01T11:13:14.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
               "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-31T21:11:32.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WaveManager.cs",
-              "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Waves\\WaveManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Waves\\WaveManager.cs",
-              "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Waves\\WaveManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Waves\\WaveManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T21:10:53.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Projectile.cs",
               "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\Projectile.cs",
@@ -171,31 +175,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "EnemyData.cs",
               "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemyData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyData.cs",
               "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemyData.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T20:32:08.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "EnemySpawner.cs",
               "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemySpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemySpawner.cs",
               "ToolTip": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Enemy\\EnemySpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemySpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T20:30:19.469Z"
+              "WhenOpened": "2025-12-30T20:30:19.469Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "TowerAttack.cs",
               "DocumentMoniker": "C:\\Users\\Luke Blaylock\\Documents\\GitHub\\CW2_Group_Project\\CW2_TD\\Assets\\Scripts\\Towers\\TowerAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\TowerAttack.cs",

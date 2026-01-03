@@ -5,7 +5,6 @@ public class PlayerController : MonoBehaviour
     float horizontal;
     float vertical;
     Vector3 velocity;
-    float rotation_speed = 500f;
 
     public float movementSpeed = 5.0f;
     public float gravityMultiplier = 2;
