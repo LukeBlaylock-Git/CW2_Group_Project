@@ -4,16 +4,17 @@ using System.Linq;
 using System.Diagnostics.CodeAnalysis;
 public class TowerAttack : MonoBehaviour
 {
+    [Header("Data")]
+    public TowerData Data;
+
     //Other Script being used
     public TowerShooter shooter;
 
     //Target vairables
-    public float TowerRange = 5f;
     public Transform TowerRotate; // The Range, Rotating bit and the speed it turns
     public float TowerRotateSpeed = 5f;
 
-    //Firing vairables
-    public float FireRate = 2f; // How fast it can fire and how long it has to wait between shots
+    //Firing vairabless
     private float Cooldown = 1f;
 
     public Transform CurrentlyTargeted; //Who is getting shot
@@ -27,7 +28,7 @@ public class TowerAttack : MonoBehaviour
 
     void LocateTarget()
     {
-        Collider[] hits = Physics.OverlapSphere(transform.position, TowerRange);//When it overlaps
+        Collider[] hits = Physics.OverlapSphere(transform.position, Data.Range);//When it overlaps
 
         float ClosestDistance = Mathf.Infinity; //How far it can shoot
         Transform ClosestEnemy = null;
@@ -74,7 +75,7 @@ public class TowerAttack : MonoBehaviour
                 shooter.Firing(CurrentlyTargeted);
             }
 
-            Cooldown = 1f / FireRate;//How long till next shot is allowed
+            Cooldown = 1f / Data.FireRate;//How long till next shot is allowed
         }
     }
 }

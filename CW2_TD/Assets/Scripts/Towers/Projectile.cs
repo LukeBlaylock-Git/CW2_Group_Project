@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float ProjectileSpeed = 10f; //What are the base stats
-    public int ProjectileDamage = 5;
-    public float TowerRange = 5f;
+    [Header("Data")] 
+    public TowerData Data;
 
 
     public Transform CurrentlyTargeted;
 
     public void GettingTarget(Transform enemy) //Get the target to fire at
     {
-        Collider[] hits = Physics.OverlapSphere(transform.position, TowerRange);//When it overlaps
+        Collider[] hits = Physics.OverlapSphere(transform.position, Data.Range);//When it overlaps
 
         float ClosestDistance = Mathf.Infinity; //How far it can shoot
         Transform ClosestEnemy = null;
@@ -42,7 +41,7 @@ public class Projectile : MonoBehaviour
         }
         
         Vector3 Direction = (CurrentlyTargeted.position - transform.position).normalized; //Move to target
-        transform.position += Direction * ProjectileSpeed * Time.deltaTime;
+        transform.position += Direction * Data.ProjectileSpeed * Time.deltaTime;
 
     }
 
@@ -54,7 +53,7 @@ public class Projectile : MonoBehaviour
             Enemy HP = other.GetComponent<Enemy>();
             if (HP != null)
             {
-                HP.TakeDamage(ProjectileDamage);
+                HP.TakeDamage(Data.ProjectileDamage);
             }
 
             Destroy(gameObject) ;

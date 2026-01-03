@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0069d9378c766624c8270fdf4c1b75ca, type: 3}
+  m_Name: BasicTowerData
+  m_EditorClassIdentifier: Assembly-CSharp::TowerData
+  TowerPrefab: {fileID: 5120322359843644832, guid: 504801ca01d4f28489b0d059431580de, type: 3}
+  Cost: 125
+  Range: 5
+  FireRate: 2
+  ProjectileSpeed: 10
+  ProjectileDamage: 5
