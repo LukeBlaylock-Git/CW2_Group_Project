@@ -15,6 +15,7 @@ public class EnemySpawner : MonoBehaviour
             Enemy.Path = Path;
             Enemy.Data = EnemyData;
             GameManager.Instance.RegisterEnemy();
+
             yield return new WaitForSeconds(Delay);
         }
     }

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1054815584151402713}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: upperleg.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,11 +41,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8645540365441572916}
-  - component: {fileID: -3445713065220467629}
   - component: {fileID: 3111018261458065029}
   - component: {fileID: 7709960588763130766}
   - component: {fileID: -3708684531333434704}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy_Mage
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -76,20 +75,6 @@ Transform:
   - {fileID: 3895839033403706308}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-3445713065220467629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704079429657315113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa2fbbd364f10040b6850cd3898708d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemySplineMovement
-  Type: {fileID: 11400000, guid: 0c6ce69eee11d924aa817d0bcbc597af, type: 2}
-  Path: {fileID: 0}
 --- !u!65 &3111018261458065029
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -150,8 +135,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c68075c51c1a01c49941f767ae5fe9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthHandler
-  Stats: {fileID: 11400000, guid: 0c6ce69eee11d924aa817d0bcbc597af, type: 2}
+  Path: {fileID: 0}
+  Data: {fileID: 0}
   CurrentHealth: 10
+  Progress: 0
 --- !u!1 &712608237725106493
 GameObject:
   m_ObjectHideFlags: 0
@@ -161,7 +148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7221722543686732208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: foot.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3112181174286439374}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: lowerleg.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 707686208116355259}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6953294141705145315}
   - component: {fileID: 7402285723406616303}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skeleton_Mage_Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8481079282039807113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -407,7 +394,7 @@ GameObject:
   - component: {fileID: 5111583401688958259}
   - component: {fileID: 7432241252359655199}
   - component: {fileID: 3044456094437790038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skeleton_Mage_Hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5856679807800221652}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -526,7 +513,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5230030433300127103}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: lowerarm.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,7 +546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4033771771529902661}
   - component: {fileID: 3689163953491613325}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skeleton_Mage_LegRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,7 +659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5867742898149757066}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rig_Medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,7 +691,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7335069889496778372}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: toes.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,7 +722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2917912208736049430}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: handslot.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -766,7 +753,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 438545583568890829}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: foot.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -798,7 +785,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7200051681640413747}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: lowerarm.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -831,7 +818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4990167922959626639}
   - component: {fileID: 5753851735908439481}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skeleton_Mage_ArmLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -944,7 +931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4968434082485272606}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: toes.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -976,7 +963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3895839033403706308}
   - component: {fileID: 609951051665727034}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skeleton_Mage_Skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1089,7 +1076,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2210590167207368148}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hand.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1121,7 +1108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5670162226806269900}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wrist.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1153,7 +1140,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5093228543982503810}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: upperarm.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1186,7 +1173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 217060433747371012}
   - component: {fileID: 3582180889089416366}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skeleton_Mage_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1300,7 +1287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5351850751091616286}
   - component: {fileID: 4947029318833587554}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skeleton_Mage_LegLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1413,7 +1400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6731075489591299914}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: upperarm.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1445,7 +1432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 786986212411866182}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wrist.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1477,7 +1464,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6285489185365579888}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hand.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1509,7 +1496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 371855255542369582}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: lowerleg.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1541,7 +1528,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 796633798663971320}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: handslot.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1572,7 +1559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7612182525944674278}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: upperleg.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1605,7 +1592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5407652863811768208}
   - component: {fileID: 7443975496822587198}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skeleton_Mage_Jaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1719,7 +1706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7827027204704765042}
   - component: {fileID: 8769835128772415146}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skeleton_Mage_ArmRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1832,7 +1819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1691756654538348996}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1866,7 +1853,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2723137666602127028}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
