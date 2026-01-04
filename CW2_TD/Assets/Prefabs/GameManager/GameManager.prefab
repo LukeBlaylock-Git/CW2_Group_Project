@@ -44,6 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6110eb4117963740968680c4fdf1b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  Lives: 1000
+  Lives: 30
   Money: 200
   CurrentPhase: 0

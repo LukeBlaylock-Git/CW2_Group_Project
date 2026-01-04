@@ -1,5 +1,6 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
+using System.Collections;
 public class GameManager : MonoBehaviour
 {
     bool Paused = false;
@@ -65,8 +66,13 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Debug.Log("Lives reached 0, Game Over");
-        Time.timeScale = 0f; //Pause on game over.
+
+        CurrentPhase = GamePhase.End;
+        Time.timeScale = 0f;
+
+        StartCoroutine(ReturnToMenuAfterDelay());
     }
+
     public bool CanAfford(int Cost)
     {
         return Money >= Cost;
@@ -97,4 +103,20 @@ public class GameManager : MonoBehaviour
         if (EnemiesAlive < 0)
             EnemiesAlive = 0;
     }
+    IEnumerator ReturnToMenuAfterDelay()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+
+        Time.timeScale = 1f; // Unpauses the game, without this it loads the scene but you cant interact or do anything.
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void GameWon()
+    {
+        Debug.Log("All waves completed, game Won");
+        CurrentPhase = GamePhase.End;
+        Time.timeScale = 0f;
+
+        StartCoroutine(ReturnToMenuAfterDelay());
+    }
+        
 }
