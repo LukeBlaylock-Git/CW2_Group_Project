@@ -1,5 +1,4 @@
 using System.Collections;
-using UnityEditor.Overlays;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -34,6 +33,9 @@ public class WaveManager : MonoBehaviour
         if (CurrentWaveIndex >= Waves.Length)
         {
             Debug.Log("All waves complete");
+            StartWaveButton.gameObject.SetActive(false);
+            GameManager.Instance.GameWon();
+
             yield break;
         }
 
