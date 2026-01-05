@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChloeScene.unity
     guid: a8e3f3b0e2dfc1241af230b6190acb5e
+  - enabled: 1
+    path: Assets/Scenes/OwensScene.unity
+    guid: 82ef3c2b6ef7f1b41b40c89244522495
+  - enabled: 1
+    path: Assets/Scenes/Krystian_Scene.unity
+    guid: 69016601991f99c4c8be527fe0fdf0dd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
