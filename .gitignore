@@ -18,7 +18,7 @@ MemoryCaptures/
 *.pidb
 *.booproj
 *.svd
-
+*.vs/
 # Unity crash reports
 sysinfo.txt
 CW2_TD/.vs/CW2_TD/FileContentIndex/729c4df5-6519-421e-a61a-ba65a7467357.vsidx
@@ -30,3 +30,4 @@ CW2_TD/UserSettings/
 
 CW2_TD/UserSettings/EditorUserSettings.asset
 CW2_TD/UserSettings/Layouts/default-6000.dwlt
+CW2_TD/.vs/
