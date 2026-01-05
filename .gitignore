@@ -30,3 +30,19 @@ CW2_TD/UserSettings/
 
 CW2_TD/UserSettings/EditorUserSettings.asset
 CW2_TD/UserSettings/Layouts/default-6000.dwlt
+
+# Visual Studio / VS Code
+.vs/
+**/.vs/
+.vscode/
+**/.vscode/
+.vsconfig
+
+# VS database / cache files
+*.suo
+*.user
+*.userprefs
+*.vsidx
+*.db
+*.db-shm
+*.db-wal
