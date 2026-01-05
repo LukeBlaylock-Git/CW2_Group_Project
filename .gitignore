@@ -1,33 +1,48 @@
+# ===============================
 # Unity auto-generated folders
+# ===============================
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-
-# Unity cache
 MemoryCaptures/
 
-# Auto-generated files
+# ===============================
+# Unity user-specific settings
+# ===============================
+UserSettings/
+CW2_TD/UserSettings/
+
+# ===============================
+# Visual Studio / IDE
+# ===============================
+.vs/
+**/.vs/
+
+# Visual Studio user & cache files
+*.suo
+*.user
+*.userprefs
+*.vsidx
+*.db
+*.db-shm
+*.db-wal
+
+# ===============================
+# IDE / Project files
+# ===============================
 *.csproj
 *.unityproj
 *.sln
-*.user
-*.userprefs
-*.pidb
 *.booproj
+*.pidb
 *.svd
-*.vs/
-# Unity crash reports
-sysinfo.txt
-CW2_TD/.vs/CW2_TD/FileContentIndex/729c4df5-6519-421e-a61a-ba65a7467357.vsidx
-CW2_TD/.vs/CW2_TD/FileContentIndex/30a52d03-c375-4cd4-870d-a41e2fb3504f.vsidx
-*.vsidx
 
-# Unity user-specific files
-CW2_TD/UserSettings/
+# ===============================
+# OS junk
+# ===============================
+.DS_Store
+Thumbs.db
 
-CW2_TD/UserSettings/EditorUserSettings.asset
-CW2_TD/UserSettings/Layouts/default-6000.dwlt
-CW2_TD/.vs/
