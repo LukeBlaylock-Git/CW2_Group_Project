@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu_UI : MonoBehaviour
 {
+    public string[] Levels;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void PlayGame()
     {
