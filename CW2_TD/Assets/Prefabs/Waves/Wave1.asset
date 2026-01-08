@@ -14,8 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WaveData
   Spawns:
   - EnemyType: {fileID: 11400000, guid: cdcac9e94d58c544da2df2c9c87d3af8, type: 2}
-    Count: 5
-    SpawnDelay: 0.5
-  - EnemyType: {fileID: 11400000, guid: f2e255753f8507f4e9df4cc1354c7867, type: 2}
     Count: 10
-    SpawnDelay: 2
+    SpawnDelay: 0.5

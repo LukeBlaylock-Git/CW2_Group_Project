@@ -12,9 +12,9 @@ public class LevelSelector_UI : MonoBehaviour
             Debug.LogWarning("Invalid level Index");
             return;
         }
-        SceneManager.LoadScene(Levels[Index]);
+        SceneManager.LoadScene(Levels[Index]); //The List for all the levels which our player can access.
     }
-    public void QuitGame()
+    public void QuitGame() //If button is clicked, quit game.
     {
         Application.Quit();
         Debug.Log("Quit Game");
