@@ -7,9 +7,9 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     [Header("Meta Stats")]
-    public int Lives = 10;
-    public int Money = 200;
-    public int EnemiesAlive {  get; private set; }
+    public int Lives = 10; //Number of lives our player starts with, can be configured freely, 10 is just the default.
+    public int Money = 200; //Money that our player starts with, again can be configured freely,
+    public int EnemiesAlive {  get; private set; } 
 
     void Awake()
     {
@@ -44,26 +44,29 @@ public class GameManager : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
                 break;
+            //Cursor is locked and hidden during combat.
             case GamePhase.Combat:
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
                 break;
+            //Cursor is free when the game ends.
             case GamePhase.End:
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
                 break;
         }
     }
+    //Called when the player loses a life, so when the enemy reaches the end of our spline.
     public void LifeLost(int Amount = 1)
     {
         Lives -= Amount;
 
-        if (Lives <= 0)
+        if (Lives <= 0) //If lives are zero, trigger function GameOver
         {
             GameOver();
         }
     }
-    public void GameOver()
+    public void GameOver() //Handles our lose condition.
     {
         Debug.Log("Lives reached 0, Game Over");
 
@@ -110,7 +113,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f; // Unpauses the game, without this it loads the scene but you cant interact or do anything.
         SceneManager.LoadScene("MainMenu");
     }
-    public void GameWon()
+    public void GameWon() //Handles the "winning" of the game, calls the gamephase End and returns the player to the main menu after a few seconds.
     {
         Debug.Log("All waves completed, game Won");
         CurrentPhase = GamePhase.End;
